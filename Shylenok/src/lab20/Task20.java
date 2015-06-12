@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
  */
 public class Task20 {
     public static void main(String[] args) {
-        String str = "0x7FFF fdggfd dfgdggdg 0x8AAF  kkkk  khg gkhjg 0xaa865c";
+        String str = "0x7FFF fdggfd dfgdggdg 0x8AAF  kkkk  khg gkhjg 0xaa865c1";
         Pattern patter = Pattern.compile("0x\\p{XDigit}+" );
         Matcher m = patter.matcher(str);
         while (m.find()) {
