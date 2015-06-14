@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 
 public class Task21 {
     public static void main(String[] args) {
-        String str = "0x7FFF fdggfd <p grt=546> dfgdggdg 0x8AAF <p id=\\\"sdd\\\">  kkkk   0xaa865c1";
+        String str = "0x7FFF fdggfd <p grt=546> dfgdggdg 0x8AAF <p id=\\\"sdd12\\\">  kkkk   0xaa865c1";
         Pattern pat = Pattern.compile("<p.+?>");
         Matcher mat = pat.matcher(str);
         System.out.println("Начальная последовательность - " + str);
